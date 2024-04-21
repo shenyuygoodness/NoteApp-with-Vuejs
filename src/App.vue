@@ -27,6 +27,7 @@
 </script>
 <template>
   <main>
+    <p>Life is gonnes hace have to talk and write down stuff</p>
     <div v-if="showModel" class="overlay">
       <div class="modal">
         <textarea v-model.trim="newNote" name="note" id="note" cols="30" rows="10"></textarea>
